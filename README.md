@@ -1,53 +1,46 @@
-# Weight Training Tracker (WTT) App
+# 🏋️‍♂️ Weight Training Tracker (WTT) - App Development Project  
 
-WTT is an ongoing Wear OS project designed to track weight training workouts, helping users push past their personal records (PRs). The app provides a streamlined and intuitive experience for logging workouts directly from your smartwatch.
+**📌 Project Goal:**  
+Develop a **Smartwatch-first** weight training app that allows users to log their workouts seamlessly **without a phone**, optimizing **progress tracking, PR monitoring, and AI-driven recommendations**.  
 
 ![Active Workout Screen](./Screenshots/Active%20Workout%20Screen.png)
 
-## 🚀 Key Features
 
-- **Exercise Logging:** Track exercises, sets, reps, and weights with ease.
-- **Rest Timers:** Precision timers to monitor rest periods between sets.
-- **Workout History:** Review past workouts to track progress over time.
-- **PR Tracking:** Identify and highlight personal bests.
-- **Multi-layout Support:** Optimized UI across various Wear OS devices.
+## 📈 Market Potential
 
-## 🛠 Tech Stack
+- **2024:** 454.73M total smartwatch users  
+  - **Wear OS:** Approximately 122.77M users (27% market share)
+- **2029 ([forecast](https://www.statista.com/forecasts/1314339/worldwide-users-of-smartwatches)):** 740.53M total smartwatch users (+62.86%) 
 
-- **Kotlin** - Modern, concise, and powerful language for Android development.
-- **Jetpack Compose** - Declarative UI toolkit for building dynamic and scalable interfaces.
-- **Wear OS** - Designed for seamless smartwatch integration.
-- **Horologist** - Enhancing Wear OS app development with best practices.
-- **Material Design** - Ensuring a clean and intuitive UI experience.
+## 🚨 **User Pain Points**  
+- 🤳 **Carrying a phone at the gym is inconvenient** – Risks of dropping, breaking, or looking like you're texting all the time.
+- 🥱 **Tracking progress is tedious** – Measuring progressive overload requires precision.  
+- 🤷 **Lack of reliable data** – Most lifters rely on trial and error instead of precise data-driven recommendations.
 
-## 📌 Project Status
+## 💡 **Solution**:
+A **watch-first** approach addresses the key user pain points:
+- 🙌 **Minimal Distractions** – Phone-free experience to log workouts, exercises, reps, sets, weights, and rest times.
+- 🎯 **PR-Focused Input** – Automatically suggests weights, reps and rest to beat your personal records.
+- 🥇 **Automated PR Recognition** – Instantly rewards users when hitting new PRs and tracks streaks.  
 
-WTT is an ongoing project with continuous improvements and new feature additions. Contributions, feedback, and suggestions are welcome!
+![Multi-layout Development](./Screenshots/Multi-layout%20development.png)
 
-## 📱 User Flow
-
-The **user flow** visualizes the interaction steps within the WTT app, guiding users through the process of starting a workout, adding exercises, recording sets, and reviewing their performance. 
-
-- **Workout Initialization:** Users can start a new workout or review their workout history. 
-- **Exercise Management:** Exercises can be added manually or selected from previous entries.
-- **Workout Execution:** Sets, reps, and weights are recorded with visual indicators for progress.
-- **Workout Summary & PR Tracking:** Highlights personal bests, estimated 1RMs, and allows re-performing past workouts for tracking improvements.
-
+## 🎯 **Optimized User flow**
 Each screen transition is carefully designed to ensure an intuitive and efficient experience, reducing friction and maximizing usability on a smartwatch.
 ![User Flow](./Screenshots/User's%20flow.png)
 
-## 🔄 Multi-layout Development
+## 🛠 **Roadmap**  
 
-Given the varying form factors of Wear OS devices, the app supports **multi-layout development** to ensure a consistent and adaptable user experience. 
+### **Q2 2025:**  
+- 🚀 **Beta Launch:** Initial release for user testing & feedback.  
 
-- **Adaptive UI:** Screens adjust based on device dimensions to provide clarity and ease of use.
-- **Progress Indicators:** Different states of workout progression (e.g., completed, pending) are clearly marked.
-- **Visual Hierarchy:** Important data such as weights, reps, and PRs are emphasized for quick reference.
+### **Q3 2025:**  
+- 🔁 **Watch-to-Phone Cloud Sync:** Enables **data backup & analysis on Android devices**.  
+- 📈 **PR Trackboard:** Compare progress against previous bests and track streaks.  
 
-This ensures that whether on a circular or rectangular smartwatch, users have an optimal experience that prioritizes clarity and usability.
-![Multi-layout Development](./Screenshots/Multi-layout%20development.png)
+### **Q4 2025:**  
+- 🤖 **AI-Powered Recommendations:** Dynamic input and recommendations based on user **lifting patterns**.  
 
----
-
-### 🚀 Stay Tuned for More Updates!
-This project is actively evolving, with plans to introduce **cloud sync, advanced statistics, and enhanced workout recommendations**.
+### **H1 2026:**  
+- 🌍 **Multi-Language Support:** Expanding beyond English.  
+- 🍏 **iOS Version (TBD):** Evaluating potential for an Apple Watch-compatible version.  
